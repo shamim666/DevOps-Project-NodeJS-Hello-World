@@ -23,7 +23,7 @@ const cars = [
 // you will get response => you have not made any request 
 
 app.get('/', (req, res) => {
-    res.send("Hello World ! You have not made any request")
+    res.send("<h2><center>Hello World ! You have not made any request</center></h2><br/><h3><center>Welcome to NodeJS</center></h3>")
 })
 
 
