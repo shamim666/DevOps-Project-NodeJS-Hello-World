@@ -28,3 +28,6 @@ Build the image using Dockerfile.
 Create an instance of the image (container).
 We created the image, now let’s run our image.
 #### docker run --name express-api -d -p 5000:5000 node-app:latest
+
+in this, the port 5000 from container listens in 5000 in our machine, which means we can view our application on http://localhost:5000 With this, 
+now you can able to containerize your application.
